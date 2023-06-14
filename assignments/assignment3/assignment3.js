@@ -12,11 +12,25 @@ window.onload=()=>{
     const queGetOlThird = document.querySelector("ol .third");
     console.log(queGetOlThird);
     // Give the section with an id of container the text "Hello!".
-    document.getElementById("container").innerText = "Hello!";
+    document.getElementById("container").appendChild(document.createTextNode("Hello!"));
     // Add the class main to the div with a class of footer.
     document.getElementsByClassName("footer")[0].classList.add("main");
     // Remove the class main on the div with a class of footer.
     document.getElementsByClassName("footer")[0].classList.remove("main");
     // Create a new li element.
-    document.createElement("li");
-}
+    const createLi = document.createElement("li");
+    // Give the li the text "four".
+    createLi.textContent = "four";
+    console.log(createLi);
+    //Append the li to the ul element.
+    document.querySelector("ul").appendChild(createLi);
+    // Loop over all of the lis inside the ol tag and give them a background color of "green".
+    const lis = document.querySelectorAll("ol li");
+    lis.forEach((ele)=>{
+        ele.style.backgroundColor = "green";
+    });
+    // Remove the div with a class of footer.
+    var getDiv = document.querySelector(".footer");
+    getDiv.remove();
+
+};
