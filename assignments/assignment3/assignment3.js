@@ -30,7 +30,7 @@ window.onload=()=>{
         ele.style.backgroundColor = "green";
     });
     // Remove the div with a class of footer.
-    var getDiv = document.querySelector(".footer");
+    const getDiv = document.querySelector(".footer");
     getDiv.remove();
 
 };
