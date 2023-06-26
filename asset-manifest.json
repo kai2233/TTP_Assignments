@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/assignment8-giphy/static/css/main.073c9b0a.css",
-    "main.js": "/assignment8-giphy/static/js/main.fcc32d48.js",
-    "static/js/787.8fad1a14.chunk.js": "/assignment8-giphy/static/js/787.8fad1a14.chunk.js",
-    "index.html": "/assignment8-giphy/index.html",
-    "main.073c9b0a.css.map": "/assignment8-giphy/static/css/main.073c9b0a.css.map",
-    "main.fcc32d48.js.map": "/assignment8-giphy/static/js/main.fcc32d48.js.map",
-    "787.8fad1a14.chunk.js.map": "/assignment8-giphy/static/js/787.8fad1a14.chunk.js.map"
+    "main.css": "/TTP_Assignments/assignments/assignment8-giphy/static/css/main.073c9b0a.css",
+    "main.js": "/TTP_Assignments/assignments/assignment8-giphy/static/js/main.18647df8.js",
+    "static/js/787.8fad1a14.chunk.js": "/TTP_Assignments/assignments/assignment8-giphy/static/js/787.8fad1a14.chunk.js",
+    "index.html": "/TTP_Assignments/assignments/assignment8-giphy/index.html",
+    "main.073c9b0a.css.map": "/TTP_Assignments/assignments/assignment8-giphy/static/css/main.073c9b0a.css.map",
+    "main.18647df8.js.map": "/TTP_Assignments/assignments/assignment8-giphy/static/js/main.18647df8.js.map",
+    "787.8fad1a14.chunk.js.map": "/TTP_Assignments/assignments/assignment8-giphy/static/js/787.8fad1a14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.fcc32d48.js"
+    "static/js/main.18647df8.js"
   ]
 }
